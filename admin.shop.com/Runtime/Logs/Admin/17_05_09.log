@@ -1,0 +1,2181 @@
+[ 2017-05-09T19:43:16+08:00 ] 192.168.115.1 /index.php?s=Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012505s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+NOTIC: [8] session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/session) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2017-05-09T19:43:16+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+
+[ 2017-05-09T19:54:00+08:00 ] 192.168.115.1 /index.php?s=Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-05-09T19:54:19+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-05-09T19:58:49+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-05-09T19:59:22+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-05-09T20:02:50+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-05-09T20:02:55+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-09T20:04:41+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-05-09T20:04:41+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-05-09T20:04:41+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-05-09T20:04:54+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-05-09T20:04:57+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-09T20:05:10+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-05-09T20:05:10+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-05-09T20:05:10+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-05-09T20:05:11+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-05-09T20:05:11+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-05-09T20:05:11+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-09T20:05:21+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-09T20:05:24+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2017-05-09T20:11:19+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-09T20:13:00+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-05-09T20:13:24+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-09T20:13:37+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-05-09T20:13:48+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-05-09T20:24:55+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-05-09T20:28:43+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-05-09T20:28:49+08:00 ] 192.168.115.1 /index.php/Supplier/changeStatus/status/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for I(), called in /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php on line 93 and defined /home/dengfan/shop/ThinkPHP/Common/functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 376 行.
+
+[ 2017-05-09T20:29:06+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-05-09T20:29:07+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-05-09T20:29:07+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-05-09T20:29:07+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-05-09T20:29:08+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-05-09T20:29:09+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-05-09T20:29:14+08:00 ] 192.168.115.1 /index.php/Supplier/changeStatus/status/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [2] Missing argument 1 for I(), called in /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php on line 93 and defined /home/dengfan/shop/ThinkPHP/Common/functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 376 行.
+
+[ 2017-05-09T20:30:02+08:00 ] 192.168.115.1 /index.php/Supplier/changeStatus/status/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for I(), called in /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php on line 93 and defined /home/dengfan/shop/ThinkPHP/Common/functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 376 行.
+
+[ 2017-05-09T20:34:30+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-05-09T20:34:35+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-09T20:34:41+08:00 ] 192.168.115.1 /index.php/Supplier/changeStatus/status/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 1 for I(), called in /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php on line 93 and defined /home/dengfan/shop/ThinkPHP/Common/functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 376 行.
+NOTIC: [8] Undefined index: status /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 34 行.
+NOTIC: [8] Undefined index: status /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 37 行.
+NOTIC: [8] Undefined index: id /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 37 行.
+
+[ 2017-05-09T20:34:46+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-05-09T20:36:04+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-05-09T20:36:06+08:00 ] 192.168.115.1 /index.php/Supplier/changeStatus/status/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for I(), called in /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php on line 93 and defined /home/dengfan/shop/ThinkPHP/Common/functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/ThinkPHP/Common/functions.php 第 376 行.
+NOTIC: [8] Undefined index: status /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 35 行.
+NOTIC: [8] Undefined index: status /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: id /home/dengfan/shop/admin.shop.com/Application/Admin/Model/SupplierModel.class.php 第 38 行.
+
+[ 2017-05-09T20:37:42+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-05-09T20:50:49+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BrandController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-09T20:51:13+08:00 ] 192.168.115.1 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: name /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 22 行.
+NOTIC: [8] Undefined variable: intro /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 27 行.
+NOTIC: [8] Undefined variable: id /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 42 行.
+NOTIC: [8] Undefined variable: brand_info /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-05-09T20:51:36+08:00 ] 192.168.115.1 /index.php/Brand/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: brand_info /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-05-09T20:51:50+08:00 ] 192.168.115.1 /index.php/Brand/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BrandController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-05-09T20:51:52+08:00 ] 192.168.115.1 /index.php/Brand/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BrandController.class.php 第 29 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-05-09T20:59:10+08:00 ] 192.168.115.1 /index.php/Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-05-09T20:59:12+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-09T20:59:13+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/SupplierController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-05-09T21:00:58+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-09T21:00:58+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-05-09T21:00:58+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-05-09T21:00:58+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-05-09T21:01:02+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-05-09T21:01:02+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-05-09T21:02:03+08:00 ] 192.168.115.1 /index.php?s=Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-05-09T21:02:08+08:00 ] 192.168.115.1 /index.php?s=Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2017-05-09T21:02:10+08:00 ] 192.168.115.1 /index.php/Brand/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-05-09T21:02:11+08:00 ] 192.168.115.1 /index.php/Brand/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-05-09T21:03:21+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+ERR: 1146:Table 'shop1009.c_o_n_t_r_o_l_l_e_r__n_a_m_e' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `c_o_n_t_r_o_l_l_e_r__n_a_m_e`
+ERR: 1146:Table 'shop1009.c_o_n_t_r_o_l_l_e_r__n_a_m_e' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `c_o_n_t_r_o_l_l_e_r__n_a_m_e`
+
+[ 2017-05-09T21:03:22+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-05-09T21:03:54+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 31 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-05-09T21:03:54+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-05-09T21:07:23+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-05-09T21:07:23+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-09T21:07:26+08:00 ] 192.168.115.1 /index.php/Brand/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2017-05-09T21:07:26+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-09T21:12:29+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0228s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-05-09T21:12:30+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-09T21:13:35+08:00 ] 192.168.115.1 /index.php/Brand/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-05-09T21:13:35+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-05-09T21:13:44+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-05-09T21:14:17+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-05-09T21:15:51+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-05-09T21:15:51+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+
+[ 2017-05-09T21:15:52+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-09T21:19:16+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0216s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-09T21:19:17+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-09T21:19:19+08:00 ] 192.168.115.1 /index.php/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/9d37d6f6824f00885b94853d8b0bbbec.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-05-09T21:19:19+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-05-09T21:19:21+08:00 ] 192.168.115.1 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: where /home/dengfan/shop/admin.shop.com/Application/Admin/Controller/BaseController.class.php 第 34 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: search /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/1bf3ba1e74e1beab7f2b07c79ed81aea.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-09T21:19:21+08:00 ] 192.168.115.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-05-09T21:19:24+08:00 ] 192.168.115.1 /index.php/Brand/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `brand` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: brand_info /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/7684beeff9059b80de46f66121663799.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-05-09T21:19:27+08:00 ] 192.168.115.1 /index.php/Supplier/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2] session_start(): open(/var/lib/php/session/sess_otc25jojd8ieetejl8ufv788e2, O_RDWR) failed: Permission denied (13) /home/dengfan/shop/ThinkPHP/Common/functions.php 第 1421 行.
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: brand_info /home/dengfan/shop/admin.shop.com/Runtime/Cache/Admin/0cd63528a906f76f166a219bf7f74c35.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
