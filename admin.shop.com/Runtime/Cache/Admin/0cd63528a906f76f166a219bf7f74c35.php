@@ -6,6 +6,9 @@
 <link href="http://admin.shop.com/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
 <link href="http://admin.shop.com/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
   
+
+  <link rel="stylesheet" type="text/css" href="http://admin.shop.com/Public/Admin/uplodify/uploadify.css">
+
 </head>
 <body>
 
@@ -22,6 +25,19 @@
       <td class="label">供应商名称</td>
       <td><input type="text" name="name" maxlength="60" value="<?php echo ($name); ?>"><span class="require-field">*</span></td>
     </tr>
+    <tr>
+      <td class="label">图片</td>
+      <td><input id="file_upload" type="file" name="pic" multiple="true"></td>
+      <input type='hidden' class="logo" name='pic' maxlength='60'/>
+
+      <div class="upload-img-box" style="display: none">
+        <div class="upload-pre-item">
+          <img src="">
+        </div>
+      </div>
+    </tr>
+
+
 
     <tr>
       <td class="label">供应商简介</td>
@@ -49,6 +65,8 @@
     </tr>
     </tbody></table>
 </form>
+
+
 </div>
 
 
@@ -59,6 +77,38 @@
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/js/jquery.form.js"></script>
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/layer/layer.js"></script>
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/js/com.js"></script>
+
+
+  <script src="http://admin.shop.com/Public/Admin/uplodify/jquery.uploadify.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#file_upload').uploadify({
+        'buttonText' : '图片上传',  //设置按钮文字
+        'debug'    : true,  //开启调试
+        'fileSizeLimit' : '1MB', //限制文件上传大小
+        //'fileObjName' : 'pic',  //设置上传的名字
+        'fileTypeExts' : '*.gif; *.jpg; *.png', //设置上传允许的扩展名
+        'formData'      : {'dir' : 'logo'},  //设置文件上传时,传递的额外信息
+        height        : 50,  //上传控件的高
+        swf           : 'http://admin.shop.com/Public/Admin/uplodify/uploadify.swf',  //设置swf文件
+        uploader      : "<?php echo U('Upload/index');?>",  //设置上传文件的额处理文件
+        'width'     : 120,  //设置空间 的髋
+
+        'onUploadSuccess' : function(file, data, response) {
+          $('.upload-pre-item img').attr('src','.http://admin.shop.com/Uploads/'+data);
+          $('.imgs').attr('src','./Upload/'+data);
+          $('.upload-img-box').show();
+          $('.logo').val(data);
+
+        },  //上传成功的返回数据  file为上传的文件原名  data为上传后服务器返回的任何数据  response为真假值
+
+        'onUploadError' : function(file, errorCode, errorMsg, errorString) {
+          alert('文件 ' + file.name + ' 上传失败: ' + errorString);
+        }   //上传失败返回数据
+
+      });
+    });
+  </script>
 
 <script type="text/javascript">
 //    单选按钮通过jquery赋值,给谁赋值,谁被选中

@@ -117,6 +117,7 @@ class Upload
     public function uploadOne($file)
     {
         $info = $this->upload(array($file));
+
         return $info ? $info[0] : $info;
     }
 

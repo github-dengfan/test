@@ -37,6 +37,7 @@
 
 				<th>供应商简介</th>
 				<th>排序</th>
+				<th>图片</th>
 				<th>是否显示</th>
 				<th>操作</th>
 			</tr>
@@ -44,6 +45,7 @@
 					<td class="first-cell"><input type="checkbox" name="ids[]" class="select" value="<?php echo ($row["id"]); ?>"/><span><?php echo ($row["name"]); ?></span></td>
 					<td align="left" ><?php echo ($row["intro"]); ?></td>
 					<td align="right"><span><?php echo ((isset($row["sort"]) && ($row["sort"] !== ""))?($row["sort"]):10); ?></span></td>
+					<td align="left" ><img src="http://admin.shop.com/Uploads/<?php echo ($row["pic"]); ?>"></td>
 					<td align="center"><a class="ajax-get" href="<?php echo U('changeStatus',array('id'=>$row['id'],'status'=>1-$row['status']));?>"><img src="http://admin.shop.com/Public/Admin/images/<?php echo ($row["status"]); ?>.gif"></a></td>
 					<td align="center">
 						<a href="<?php echo U('edit',array('id'=>$row['id']));?>" title="编辑">编辑</a> |

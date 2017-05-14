@@ -7,6 +7,8 @@ return array(
         '__JS__'=>HOST_NAME.'Public/Admin/js',
         '__IMG__'=>HOST_NAME.'Public/Admin/images',
         '__LAYER__'=>HOST_NAME.'Public/Admin/layer/layer.js',
+        '__UPLOADIFY__'=>HOST_NAME.'Public/Admin/uplodify',
+        '__UPLOAD__'=>HOST_NAME.'Uploads',
 
     ),
 );
